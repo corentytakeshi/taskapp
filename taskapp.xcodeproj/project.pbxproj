@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		CE480EE0269931CD00C3300E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE480EDF269931CD00C3300E /* Assets.xcassets */; };
 		CE480EE3269931CD00C3300E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE480EE1269931CD00C3300E /* LaunchScreen.storyboard */; };
 		CE480EED269ABC5B00C3300E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480EEC269ABC5B00C3300E /* InputViewController.swift */; };
+		CE480EF1269AD71100C3300E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480EF0269AD71100C3300E /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE480EE2269931CD00C3300E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE480EE4269931CD00C3300E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE480EEC269ABC5B00C3300E /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		CE480EF0269AD71100C3300E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				5A2925D7C436CF33DF37668B /* Pods-taskapp.debug.xcconfig */,
 				3482D2E6D6896E84E9A8B29F /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,6 +79,7 @@
 				CE480ED6269931CB00C3300E /* AppDelegate.swift */,
 				CE480ED8269931CB00C3300E /* SceneDelegate.swift */,
 				CE480EDA269931CB00C3300E /* ViewController.swift */,
+				CE480EF0269AD71100C3300E /* Task.swift */,
 				CE480EEC269ABC5B00C3300E /* InputViewController.swift */,
 				CE480EDC269931CB00C3300E /* Main.storyboard */,
 				CE480EDF269931CD00C3300E /* Assets.xcassets */,
@@ -211,6 +213,7 @@
 			files = (
 				CE480EDB269931CB00C3300E /* ViewController.swift in Sources */,
 				CE480ED7269931CB00C3300E /* AppDelegate.swift in Sources */,
+				CE480EF1269AD71100C3300E /* Task.swift in Sources */,
 				CE480ED9269931CB00C3300E /* SceneDelegate.swift in Sources */,
 				CE480EED269ABC5B00C3300E /* InputViewController.swift in Sources */,
 			);
@@ -289,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -344,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
